@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main class="post-content">
+      <article>
+        <h1>{{ page.title }}</h1>
+        <p><em>{{ page.date | date: "%B %d, %Y" }}</em></p>
+        {{ content }}
+
+        <div class="post-meta">
+          {% if page.tags %}
+          <p>
+            <i class="fas fa-tags"></i> <strong>Tags:</strong>
+            {% for tag in page.tags %}
+            <a class="meta-tag" href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
+            {% endfor %}
+          </p>
+          {% endif %} {% if page.categories %}
+          <p>
+            <i class="fas fa-folder-open"></i> <strong>Categories:</strong>
+            {% for category in page.categories %}
+            <a
+              class="meta-category"
+              href="/categories/{{ category | slugify }}/"
+              >{{ category }}</a
+            >
+            {% endfor %}
+          </p>
+          {% endif %}
+
+          <p>
+            <i class="fas fa-calendar-alt"></i> <strong>Updated:</strong>
+            {{ page.date | date: "%B %d, %Y" }}
+          </p>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

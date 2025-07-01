@@ -128,3 +128,126 @@ html {
 .site-footer a:hover {
   text-decoration: underline;
 }
+
+/* articles*/
+
+.articles {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+
+.post-list li h3 {
+  margin: 0;
+}
+
+.post-list li p {
+  margin: 5px 0;
+}
+
+.post-list a {
+  text-decoration: none;
+  color: #333;
+}
+
+.post-list a:hover {
+  text-decoration: underline;
+}
+.tags {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.tag-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag-list li {
+  background: #f5f5f5;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.tag-list a {
+  text-decoration: none;
+  color: #333;
+}
+
+.tag-list a:hover {
+  text-decoration: underline;
+}
+
+/* Categories page styling */
+.categories {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.category-list li {
+  background: #f5f5f5;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.category-list a {
+  text-decoration: none;
+  color: #333;
+}
+
+.category-list a:hover {
+  text-decoration: underline;
+}
+
+/*posts*/
+.post-meta {
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  font-size: 0.95em;
+  color: #555;
+}
+
+.post-meta p {
+  margin: 10px 0;
+}
+
+.meta-tag,
+.meta-category {
+  display: inline-block;
+  background: #f5f5f5;
+  padding: 4px 8px;
+  margin: 0 4px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+  font-size: 0.9em;
+}
+
+.meta-tag:hover,
+.meta-category:hover {
+  background: #e0e0e0;
+}

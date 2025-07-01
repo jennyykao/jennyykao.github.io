@@ -5,9 +5,11 @@ layout: default
 <header class="site-header">
   <nav class="nav">
     <ul>
-      <li><a href="/">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="/articles.html">Posts</a></li>
+      <li><a href="/categories.html">Categories</a></li>
+      <li><a href="/tags.html">Tags</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
