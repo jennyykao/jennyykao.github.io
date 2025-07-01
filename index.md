@@ -2,11 +2,20 @@
 layout: default
 ---
 
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  code, pre {
+    font-family: 'Fira Code', monospace;
+  }
+</style>
+</head>
+
 <header class="site-header">
   <nav class="nav">
     <ul>
       <li><a href="#about">About</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#portfolio">Projects</a></li>
       <li><a href="/articles.html">Posts</a></li>
       <li><a href="/categories.html">Categories</a></li>
       <li><a href="/tags.html">Tags</a></li>
@@ -16,12 +25,24 @@ layout: default
 </header>
 
 <section class="hero">
-  <h1>Your Name</h1>
-  <p>Your tagline or short description</p>
+  <img src="/assets/images/profile-pic.jpg" alt="Jenny Kao headshot" class="profile-pic">
+  <p> hi there, hello <span class="wave">👋</span>&ensp;this is</p>
+  <h1>&lt;Jenny&ensp;Kao&gt;</h1>
+  <div class="hero-actions">
+    <div class="hero-social">
+      <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+    <div class="hero-buttons">
+      <a href="/assets/resume.pdf" class="button" target="_blank">Resume</a>
+      <a href="mailto:youremail@example.com" class="button">Email Me</a>
+    </div>
+    
+  </div>
 </section>
 
 <section id="about" class="about">
-  <h2>About Me</h2>
+  <h2>👩🏻‍💻 The Cliff Notes on Me</h2>
   <p>Write a brief introduction about yourself here.</p>
 </section>
 
