@@ -1,0 +1,8 @@
+title: My Portfolio
+email: your-email@example.com
+description: >-
+  A clean, modern portfolio showcasing my work.
+baseurl: "" # leave blank
+url: "" # will set when deploying
+theme: minima
+markdown: kramdown
