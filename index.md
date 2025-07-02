@@ -61,6 +61,21 @@ layout: default
   </div>
 </section>
 
+<section id="experience" class="experience">
+  <h2>I’ve worked with tech companies, startups and non-profit organizations.</h2>
+  <div class="experience-grid">
+    {% for job in site.data.work %}
+    <div class="experience-item">
+      <h3>{{ job.title }}</h3>
+      <p>{{ job.company }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="resume-button">
+    <a href="/assets/resume.pdf" target="_blank" class="button">Resume</a>
+  </div>
+</section>
+
 <section id="contact" class="contact">
   <h2>Contact</h2>
   <p>Include your email or links to your profiles.</p>
