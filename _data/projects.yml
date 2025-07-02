@@ -12,3 +12,8 @@
   description: A short description of project three.
   image: /assets/images/project3.jpg
   url: https://github.com/yourusername/project-three
+
+- title: Project Four
+  description: A short description of project four.
+  image: /assets/images/project4.jpg
+  url: https://github.com/yourusername/project-four
