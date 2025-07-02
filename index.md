@@ -47,7 +47,7 @@ layout: default
 </section>
 
 <section id="portfolio" class="portfolio">
-  <h2>📊 Projects</h2>
+  <h2> 📊 Projects</h2>
   <div class="project-grid">
     {% for project in site.data.projects %}
     <div class="project-card">
