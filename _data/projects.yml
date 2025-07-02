@@ -17,3 +17,13 @@
   description: A short description of project four.
   image: /assets/images/project4.jpg
   url: https://github.com/yourusername/project-four
+
+- title: Project Five
+  description: A short description of project five.
+  image: /assets/images/project4.jpg
+  url: https://github.com/yourusername/project-five
+
+- title: Project Six
+  description: A short description of project six.
+  image: /assets/images/project4.jpg
+  url: https://github.com/yourusername/project-six
