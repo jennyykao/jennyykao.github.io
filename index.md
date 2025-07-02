@@ -77,15 +77,21 @@ layout: default
 </section>
 
 <section id="contact" class="contact">
-  <h2>Contact</h2>
-  <p>Include your email or links to your profiles.</p>
-</section>
+  <div class="contact-container">
+    <div class="contact-image">
+      <img src="/assets/images/contact.jpg" alt="Contact">
+    </div>
+    <div class="contact-content">
+      <h2>Contact</h2>
+      <p>If you’d like to get in touch, feel free to email me or connect via LinkedIn and GitHub.</p>
+      <p>
+        <a href="mailto:youremail@example.com" class="button">Email Me</a>
+      </p>
+    
+    </div>
+  </div>
+  </section>
 
 <footer class="site-footer">
-  <p>&copy; 2025 Your Name. All rights reserved.</p>
-  <p>
-    <a href="mailto:youremail@example.com">Email</a> |
-    <a href="https://www.linkedin.com/in/yourusername" target="_blank">LinkedIn</a> |
-    <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-  </p>
+  <p> &copy; 2025 Your Name. All rights reserved.</p>
 </footer>
