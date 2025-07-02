@@ -47,7 +47,7 @@ layout: default
 </section>
 
 <section id="portfolio" class="portfolio">
-  <h2>Projects</h2>
+  <h2>📊 Projects</h2>
   <div class="project-grid">
     {% for project in site.data.projects %}
     <div class="project-card">
@@ -62,7 +62,7 @@ layout: default
 </section>
 
 <section id="experience" class="experience">
-  <h2>I’ve worked with tech companies, startups and non-profit organizations.</h2>
+  <h2>📍I’ve worked in tech companies, startups and non-profit organizations.</h2>
   <div class="experience-grid">
     {% for job in site.data.work %}
     <div class="experience-item">
@@ -82,7 +82,7 @@ layout: default
       <img src="/assets/images/contact.jpg" alt="Contact">
     </div>
     <div class="contact-content">
-      <h2>Contact</h2>
+      <h2>Say hello 🙌 Let's Connect! </h2>
       <p>If you’d like to get in touch, feel free to email me or connect via LinkedIn and GitHub.</p>
       <p>
         <a href="mailto:youremail@example.com" class="button">Email Me</a>
