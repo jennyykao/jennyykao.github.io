@@ -449,6 +449,26 @@ section h2 {
 }
 
 /*posts*/
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.post-content img {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+}
+
+.tags,
+.categories,
+.post-meta {
+  text-align: center;
+  margin-top: 1rem;
+}
+
 .post-meta {
   margin-top: 40px;
   border-top: 1px solid #eee;
