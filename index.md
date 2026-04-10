@@ -3,12 +3,6 @@ layout: default
 ---
 
 <head>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
-<style>
-  code, pre {
-    font-family: 'Fira Code', monospace;
-  }
-</style>
 </head>
 
 <header class="site-header">
