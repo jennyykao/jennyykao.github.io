@@ -6,8 +6,8 @@ layout: default
     <ul>
       <li><a href="#about">About</a></li>
       <li><a href="#portfolio">Projects</a></li>
-      <li><a href="/articles.html">Data Viz</a></li>
-      <li><a href="/logs.html">Logs</a></li>
+      <li><a href="/articles/">Data Viz</a></li>
+      <li><a href="/logs/">Logs</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
