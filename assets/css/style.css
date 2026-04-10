@@ -9,6 +9,10 @@ li {
   padding: 0;
 }
 
+code, pre {
+  font-family: 'Fira Code', monospace;
+}
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.6;
