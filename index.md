@@ -1,18 +1,6 @@
 ---
 layout: default
 ---
-<header class="site-header">
-  <nav class="nav">
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#portfolio">Projects</a></li>
-      <li><a href="/dataviz/">Data Viz</a></li>
-      <li><a href="/logs/">Logs</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-
 <section class="hero">
   <img src="/assets/images/profile-pic.jpg" alt="Jenny Kao headshot" class="profile-pic">
   <p> hi there, hello <span class="wave">👋</span>&ensp;this is</p>
