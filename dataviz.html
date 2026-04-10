@@ -13,6 +13,9 @@ permalink: /dataviz/
     {% for post in site.posts %}
     <a href="{{ post.url }}" class="post-card">
       <div class="post-card-inner">
+        {% if post.image %}
+        <img src="{{ post.image }}" alt="{{ post.title }}" class="post-card-image">
+        {% endif %}
         <div class="post-card-top">
           <span class="post-card-date">{{ post.date | date: "%b %d, %Y" }}</span>
           <div class="post-card-tags">
@@ -37,21 +40,6 @@ permalink: /dataviz/
 
 
 
+ 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
