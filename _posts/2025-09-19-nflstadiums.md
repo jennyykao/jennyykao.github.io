@@ -6,6 +6,4 @@ tags: [data visualization, analysis]
 categories: [Data Viz]
 ---
 
-### NFL Stadium Comparison
-
 The 2025 NFL season just started and this is my 3 season managing a fantasy team.
