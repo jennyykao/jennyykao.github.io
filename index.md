@@ -1,10 +1,6 @@
 ---
 layout: default
 ---
-
-<head>
-</head>
-
 <header class="site-header">
   <nav class="nav">
     <ul>
