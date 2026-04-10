@@ -173,7 +173,7 @@ html {
 }
 
 /* Sections */
-section {
+section: not(.dataviz-page):not(.experience):not(.contact) {
   padding: 60px 20px;
   max-width: 800px;
   margin: 0 auto;
@@ -595,7 +595,7 @@ h3 {
   font-size: 1.15em;
   font-weight: 700;
   color: #222;
-  text-align: left;
+  text-align: left !important;
   margin: 0;
   line-height: 1.4;
 }
