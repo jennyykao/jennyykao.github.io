@@ -501,3 +501,116 @@ h3 {
 .meta-category:hover {
   background: #e0e0e0;
 }
+
+/* Data Viz Page */
+
+.dataviz-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.dataviz-header {
+  margin-bottom: 50px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 24px;
+}
+
+.dataviz-header h1 {
+  font-family: "Fira Code", monospace;
+  font-size: 2.8em;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.dataviz-subtitle {
+  font-family: "Fira Code", monospace;
+  font-size: 0.95em;
+  color: #777;
+  text-align: left;
+}
+
+.post-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.post-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: #fff;
+  border: 1.5px solid #333;
+  border-radius: 6px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 4px 4px 0px #333;
+}
+
+.post-card-inner {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.post-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.post-card-date {
+  font-family: "Fira Code", monospace;
+  font-size: 0.78em;
+  color: #888;
+}
+
+.post-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.post-card-tag {
+  font-family: "Fira Code", monospace;
+  font-size: 0.72em;
+  background: #fff2e0;
+  border: 1px solid #ccc;
+  padding: 2px 8px;
+  border-radius: 20px;
+  color: #555;
+}
+
+.post-card-title {
+  font-family: "Fira Code", monospace;
+  font-size: 1.15em;
+  font-weight: 700;
+  color: #222;
+  text-align: left;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.post-card-category {
+  font-family: "Fira Code", monospace;
+  font-size: 0.75em;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.post-card-arrow {
+  font-size: 1.2em;
+  color: #333;
+  margin-top: auto;
+  align-self: flex-end;
+}
