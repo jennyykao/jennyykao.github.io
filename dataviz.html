@@ -3,20 +3,55 @@ layout: default
 title: Data Viz
 permalink: /dataviz/
 ---
-<section class="articles">
-  <h2>Articles</h2>
-  <ul class="post-list">
+<section class="dataviz-page">
+  <div class="dataviz-header">
+    <h1>Data Viz</h1>
+    <p class="dataviz-subtitle">Writing on data, visualization, and analysis</p>
+  </div>
+
+  <div class="post-card-grid">
     {% for post in site.posts %}
-    <li>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p>{{ post.date | date: "%B %d, %Y" }}</p>
-      <p>{{ post.excerpt }}</p>
-      <p>
-        Tags: {% for tag in post.tags %}
-        <a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>
-        {% endfor %}
-      </p>
-    </li>
+    <a href="{{ post.url }}" class="post-card">
+      <div class="post-card-inner">
+        <div class="post-card-top">
+          <span class="post-card-date">{{ post.date | date: "%b %d, %Y" }}</span>
+          <div class="post-card-tags">
+            {% for tag in post.tags %}
+            <span class="post-card-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        </div>
+        <h2 class="post-card-title">{{ post.title }}</h2>
+        <div class="post-card-categories">
+          {% for category in post.categories %}
+          <span class="post-card-category">{{ category }}</span>
+          {% endfor %}
+        </div>
+        <span class="post-card-arrow">→</span>
+      </div>
+    </a>
     {% endfor %}
-  </ul>
+  </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
