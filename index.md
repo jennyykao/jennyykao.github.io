@@ -1,28 +1,6 @@
 ---
 layout: default
 ---
-
-<head>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
-<style>
-  code, pre {
-    font-family: 'Fira Code', monospace;
-  }
-</style>
-</head>
-
-<header class="site-header">
-  <nav class="nav">
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#portfolio">Projects</a></li>
-      <li><a href="/articles.html">Data Viz</a></li>
-      <li><a href="/logs.html">Logs</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-
 <section class="hero">
   <img src="/assets/images/profile-pic.jpg" alt="Jenny Kao headshot" class="profile-pic">
   <p> hi there, hello <span class="wave">👋</span>&ensp;this is</p>

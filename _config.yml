@@ -7,9 +7,7 @@ url: "" # will set when deploying
 theme: minima
 markdown: kramdown
 header_pages:
-  - index.md
   - about.md
-  - po
   - articles.html
   - logs.html
-  - about.md
+  
